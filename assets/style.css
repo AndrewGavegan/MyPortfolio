@@ -18,7 +18,7 @@
     --normal-font-size: 0.938rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 625px) {
     :root{
         --big-font-size: 3.5rem;
         --h2-font-size: 2rem;
@@ -121,7 +121,7 @@ img{
     font-weight: var(--font-semi);
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 625px) {
     .nav_menu {
       position: fixed;
       top: var(--header-height);
@@ -402,7 +402,7 @@ img{
 
   /* medium screen queries */
 
-  @media screen and (min-width: 576px) {
+  @media screen and (min-width: 825px) {
     .home {
       padding: 4rem 0 2rem;
     }
@@ -446,7 +446,7 @@ img{
 
   /* inbetween sizes media query */
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 930px) {
     body {
       margin: 0;
     }
