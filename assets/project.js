@@ -19,4 +19,22 @@ function linkAction(){
    
     navMenu.classList.remove('show')
 }
-navLink.forEach(n => n.addEventListener('click', linkAction))
+navLink.forEach(n => n.addEventListener('click', linkAction));
+
+// opens project in current tab and repository in new tab //
+document.querySelector("#project1").addEventListener('click', function(){
+    window.open("https://github.com/JemimaSiddiqui/Project_1_Group-B")
+    location.href = ("https://jemimasiddiqui.github.io/Project_1_Group-B/")
+});
+
+// opens project in current tab and repository in new tab //
+document.querySelector("#project2").addEventListener('click', function(){
+    window.open("https://github.com/AndrewGavegan/Weather-Dashboard")
+    location.href = ("https://andrewgavegan.github.io/Weather-Dashboard/")
+});
+
+// opens project in current tab and repository in new tab //
+document.querySelector("#project3").addEventListener('click', function(){
+    window.open("https://github.com/AndrewGavegan/Work-Diary")
+    location.href = ("https://andrewgavegan.github.io/Work-Diary/")
+});
