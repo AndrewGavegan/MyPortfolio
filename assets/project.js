@@ -45,6 +45,6 @@ document.getElementById("copyBtn").addEventListener('click', function(){
     // email.select();
     // email.setSelectionRange(0, 9999);
 
-    navigator.clipboard.writeText(email.value);
+    navigator.clipboard.writeText(email.innerText);
     alert("Copied Email")
 })
