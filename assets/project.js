@@ -38,3 +38,13 @@ document.querySelector("#project3").addEventListener('click', function(){
     window.open("https://github.com/AndrewGavegan/Work-Diary")
     location.href = ("https://andrewgavegan.github.io/Work-Diary/")
 });
+
+document.getElementById("copyBtn").addEventListener('click', function(){
+    var email = document.getElementById("email") 
+
+    // email.select();
+    // email.setSelectionRange(0, 9999);
+
+    navigator.clipboard.writeText(email.value);
+    alert("Copied Email")
+})
