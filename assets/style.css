@@ -407,6 +407,9 @@ img{
       row-gap: 3rem;
       grid-template-rows: repeat(3, 300px);
     }
+    .projects{
+      max-height: 300px;
+    }
     img{
       max-height: 300px;
     }
