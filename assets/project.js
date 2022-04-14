@@ -14,6 +14,7 @@ showMenu('nav-toggle','nav-menu')
 
 const navLink = document.querySelectorAll('.nav_link')
 
+// menu dissappears once a item is clicked //
 function linkAction(){
     const navMenu = document.getElementById('nav-menu')
    
@@ -39,11 +40,9 @@ document.querySelector("#project3").addEventListener('click', function(){
     location.href = ("https://andrewgavegan.github.io/Work-Diary/")
 });
 
+// adding copy to clipboard event for email button //
 document.getElementById("copyBtn").addEventListener('click', function(){
     var email = document.getElementById("email") 
-
-    // email.select();
-    // email.setSelectionRange(0, 9999);
 
     navigator.clipboard.writeText(email.innerText);
     alert("Copied Email")
