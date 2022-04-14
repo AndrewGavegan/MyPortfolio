@@ -134,7 +134,7 @@ img{
       position: fixed;
       top: var(--header-height);
       right: -100%;
-      width: 80%;
+      width: 45%;
       height: 100%;
       padding: 2rem;
       background-color: var(--second-color);
@@ -320,15 +320,15 @@ img{
   }
   
   .skills_html {
-    width: 95%;
+    width: 90%;
   }
   
   .skills_css {
-    width: 85%;
+    width: 80%;
   }
   
   .skills_js {
-    width: 65%;
+    width: 70%;
   }
   
   .skills_img {
@@ -378,6 +378,7 @@ img{
     text-align: center;
     font-weight: var(--font-semi);
     padding: 1rem 0;
+    margin-top: var(--mb-6);
   }
   
   .footer_title {
@@ -406,8 +407,9 @@ img{
       row-gap: 3rem;
     }
     img{
-      height: auto;
+      max-height: 300px;
     }
+
     .home {
       row-gap: 2rem;
     }
@@ -509,7 +511,7 @@ img{
       width: 300px;
     }
     .skills_container {
-      grid-template-columns: repeat(2, 1fr);
+      /* grid-template-columns: repeat(2, 1fr); */
       column-gap: 2rem;
       align-items: center;
       text-align: initial;
