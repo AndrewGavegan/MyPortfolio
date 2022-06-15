@@ -5,4 +5,7 @@ This is my current professional portfolio. It showcases a responsive design with
 Links to my gihub, linkedIn, personal resume and various projects are all containded in this portfolio. My email adress is also linked at the bottom and will be copied to the clipboard once the email icon is clicked.
 ....
 This portfolio was built with HTML, CSS, JavaScript and icons from https://boxicons.com/
-....
+
+---
+
+Portfolio deployed at https://andrewgavegan.github.io/MyPortfolio/
